@@ -67,34 +67,6 @@ The **Intraday GARCH Strategy** incorporates a GARCH model to analyze and predic
   - `numpy`, `pandas`, `scikit-learn`, `yfinance`, `arch`, `matplotlib`, `seaborn`
   - For Twitter Sentiment Strategy: `tweepy`, `vaderSentiment`
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/algorithmic-trading-strategies.git
-    cd algorithmic-trading-strategies
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-To run each strategy, you can execute the respective scripts in the repository. Detailed instructions are available in the strategy-specific directories. Here’s a quick start guide:
-
-```bash
-# Example command for the Unsupervised Learning Trading Strategy
-python unsupervised_learning_strategy.py --date '2024-10-01'
-
-# Example command for Twitter Sentiment Trading Strategy
-python twitter_sentiment_strategy.py --date '2024-10-01'
-
-# Example command for Intraday GARCH Trading Strategy
-python intraday_garch_strategy.py --date '2024-10-01'
-```
-
 ## Contributing
 
 Contributions are welcome! Please open an issue to discuss potential changes or improvements.
